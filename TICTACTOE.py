@@ -88,7 +88,7 @@ for i in range (1,10):
         index_position = position('Player 2')
         test_board = change_board2(index_position)
         display(test_board)
-        k = win_check(test_board, 'Player 1', player1_marker)
+        k = win_check(test_board, 'Player 2', player2_marker)
         if k==1:
             break
 
